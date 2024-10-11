@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: Actions/checkout@v4
       - id: foo
-        uses: Ranjithakula18/hello-world-composite-action@SHA
+        uses: Ranjithakula18/myNewapp@SHA
         with:
           who-to-greet: 'Ranjith kumar'
       - run: echo random-number "$RANDOM_NUMBER"
