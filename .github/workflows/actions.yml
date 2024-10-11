@@ -4,9 +4,9 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      - uses: actions/checkout@v4
+      - uses: Ranjithakula18/checkout@v4
       - id: foo
-        uses: OWNER/hello-world-composite-action@SHA
+        uses: OWNER/hello-world-composite-action@Ranjithakula18
         with:
           who-to-greet: 'Ranjith kumar'
       - run: echo random-number "$RANDOM_NUMBER"
